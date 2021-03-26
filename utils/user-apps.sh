@@ -4,7 +4,7 @@
 CLOUD_APPS_STORE_LOCATION=$1
 
 # Default values
-DEFAULT_CLOUD_APPS_STORE_LOCATION=${HOME}/Library/Mobile\ Documents/com\~apple\~CloudDocs/Setup\ macOS/Patched\ Mac\ Apps
+DEFAULT_CLOUD_APPS_STORE_LOCATION=${HOME}/Library/Mobile\ Documents/com\~apple\~CloudDocs/DevMyMacX/Apps
 [ -z "${CLOUD_APPS_STORE_LOCATION}" ] && CLOUD_APPS_STORE_LOCATION=$DEFAULT_CLOUD_APPS_STORE_LOCATION
 
 echo "Installing user's downloaded apps from cloud backup..."
