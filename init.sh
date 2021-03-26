@@ -224,7 +224,7 @@ sh utils/editor.sh -code
 echo
 # Create Developer directory tree and set custom folder icons
 echo "Creating Developer directory tree... \c"
-mkdir -p $HOME/{Developer/{Code,Projects/{Archive,Current,IntelliJIDEA,DataGrip,WebStorm,VSCode,Postman/files},Source/{Bitbucket,GitHub,GitLab}},Sync} &>/dev/null
+mkdir -p $HOME/{Developer/{Code,Projects/{Archive,Current,IntelliJIDEA,DataGrip,WebStorm,VSCode,Postman/files,iMovie},Source/{Bitbucket,GitHub,GitLab}},Sync} &>/dev/null
 echo "Done"
 
 echo
