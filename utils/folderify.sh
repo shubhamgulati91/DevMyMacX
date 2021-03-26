@@ -52,6 +52,7 @@ folderify_me jetbrains-datagrip.png $HOME/Developer/Projects/DataGrip
 folderify_me jetbrains-webstorm.png $HOME/Developer/Projects/WebStorm
 folderify_me vscode.png $HOME/Developer/Projects/VSCode
 folderify_me postman.png $HOME/Developer/Projects/Postman
+folderify_me iMovie.png $HOME/Developer/Projects/iMovie
 
 [ -d "$HOME/Projects" ] && rm -f "$HOME/Projects"
 [ -d "$HOME/Developer/Projects/Current" ] && ln -s "$HOME/Developer/Projects/Current" "$HOME/Projects"
