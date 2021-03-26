@@ -19,7 +19,7 @@ DEFAULT_EDIT_BREWFILES='n'
 DEFAULT_INSTALL_BUNDLE_ESSENTIALS='y'
 DEFAULT_INSTALL_BUNDLE_DEVELOPMENT='n'
 DEFAULT_INSTALL_BUNDLE_MSOFFICE='n'
-DEFAULT_DELETE_ALL_DOCK_ICONS='y'
+DEFAULT_DELETE_ALL_DOCK_ICONS='n'
 
 # Check if XCode Command line tools are installed
 if ! (type xcode-select >&- && xpath=$( xcode-select --print-path ) && test -d "${xpath}" && test -x "${xpath}") ; then
