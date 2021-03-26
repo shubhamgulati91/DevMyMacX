@@ -266,7 +266,7 @@ echo
 echo "Configuring Git..."
 if test $(which git); then
   git config --global init.defaultBranch main
-  git config --global core.editor $(which nano)
+  git config --global core.editor $(which vi)
   git config --global credential.helper store
   git config --global merge.tool diffmerge
   git config --global merge.conflictstyle diff3
