@@ -122,7 +122,7 @@ echo "Updating Mac App Store Applications..."
 sudo softwareupdate -i -a
 
 # echo
-# Install user apps from cloud backup
+## Install user apps from cloud backup
 # sh utils/user-apps.sh
 
 # echo

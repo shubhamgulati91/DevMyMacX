@@ -250,9 +250,9 @@ echo
 # Configure ssh keys
 sh utils/ssh-keys.sh $GIT_USER_EMAIL
 
-echo
-# Install user apps from cloud backup
-sh utils/user-apps.sh
+# echo
+## Install user apps from cloud backup
+# sh utils/user-apps.sh
 
 echo
 # Install JDK
